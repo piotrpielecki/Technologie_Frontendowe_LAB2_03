@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "jshint": "^2.12.0"
-  }
+  },
+  "jshintConfig": {
+    "esversion": 5,
+    "undef": true,
+    "unused": true,
+    "maxparams": 2,
+    "globals": [
+    "console"
+    ]
+    }    
 }
